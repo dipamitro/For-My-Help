@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="server.php">
+        <div>
+            <label for="name">Name</label>
+                <input type="text" id="name" name="name" >
+            
+        </div>
+        <label for="email">Email</label>
+        <input type="email" value="yourname@gmail.com">
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="40" rows="10" placeholder="Write Your Message"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="female">other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="num" id="number">
+        </div>
+        <div>
+            <label for="birthday">Birthday</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="redio" id="redio" >dipa
+            <input type="radio" name="redio" id="redio" >dipa
+            <input type="radio" name="redio" id="redio" >dipa
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="checkbox" name="redio" id="redio" >dipa
+            <input type="checkbox" name="redio" id="redio" >dipa
+            <input type="checkbox" name="redio" id="redio" >dipa
+        </div>
+        <button type="submit">submit</button>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
